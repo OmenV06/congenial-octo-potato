@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "eclipsemod:steel_nugget"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "eclipsemod:throwing_knife"
+  }
+}

@@ -1,0 +1,40 @@
+{
+
+  "itemGroup.eclipse_tab": "Eclipse",
+
+  "item.eclipsemod.steel_ingot": "Steel Ingot",
+  "item.eclipsemod.steel_nugget": "Steel Nugget",
+  "item.eclipsemod.illuminite_ingot": "Illuminite Ingot",
+  "item.eclipsemod.ebonite_ingot": "Ebonite Ingot",
+
+  "block.eclipsemod.block_of_steel": "Block of Steel",
+  "block.eclipsemod.block_of_illuminite": "Block of Illuminite",
+  "block.eclipsemod.block_of_ebonite": "Block of Ebonite",
+
+  "item.eclipsemod.throwing_knife": "Throwing Knife",
+  "item.eclipsemod.steel_dagger": "Steel Dagger",
+  "item.eclipsemod.steel_hammer": "Steel Hammer",
+
+  "item.eclipsemod.throwing_knife_of_infinity": "Throwing Knife of Infinity",
+  "item.eclipsemod.dagger_of_venom": "Dagger of Venom",
+  "item.eclipsemod.mace_of_density": "Mace of Density",
+  "item.eclipsemod.katana_of_wind": "Katana of Wind",
+
+  "tooltip.eclipsemod.cursed.tooltip": "Cursed Artifact",
+  "tooltip.eclipsemod.mythical.tooltip": "Mythical Artifact",
+  "tooltip.eclipsemod.legendary.tooltip": "Legendary Artifact",
+  "tooltip.eclipsemod.rare.tooltip": "Rare Artifact",
+  "tooltip.eclipsemod.uncommon.tooltip": "Uncommon Artifact",
+  "tooltip.eclipsemod.common.tooltip": "Common Artifact",
+
+  "tooltip.eclipsemod.throwing_knife.tooltip": "2 Thrown Damage",
+  "tooltip.eclipsemod.throwing_knife_of_infinity.tooltip": "Unlimited Ammo",
+  "tooltip.eclipsemod.dagger_of_venom.tooltip": "Inflicts Poison",
+  "tooltip.eclipsemod.mace_of_density.tooltip": "Increased Knockback and Nausea",
+  "tooltip.eclipsemod.katana_of_wind.tooltip": "Fires Wind Blades",
+
+  "key.category.eclipsemod.eclipse": "Eclipse Mod",
+  "key.eclipsemod.player_menu": "Player Menu",
+  "key.eclipsemod.temp_key": "Temp Key"
+
+}
