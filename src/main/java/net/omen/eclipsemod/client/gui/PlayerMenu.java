@@ -8,11 +8,12 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
+import net.omen.eclipsemod.EclipseMod;
 import net.omen.eclipsemod.networking.ModPackets;
 import net.omen.eclipsemod.networking.packets.PlayerPowerSyncPacket;
 
 public class PlayerMenu extends Screen {
-    private static final ResourceLocation MENU_BACKGROUND_TEXTURE = new ResourceLocation("eclipsemod", "textures/gui/player_menu.png");
+    private static final ResourceLocation MENU_BACKGROUND_TEXTURE = new ResourceLocation(EclipseMod.MOD_ID, "textures/gui/player_menu.png");
     private int menuWidth = 256;
     private int menuHeight = 256;
     private String playerPowerName = "None";
