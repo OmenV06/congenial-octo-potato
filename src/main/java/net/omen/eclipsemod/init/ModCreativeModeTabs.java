@@ -1,4 +1,4 @@
-package net.omen.eclipsemod.item;
+package net.omen.eclipsemod.init;
 
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;

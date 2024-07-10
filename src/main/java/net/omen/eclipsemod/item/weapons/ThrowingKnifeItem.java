@@ -1,4 +1,4 @@
-package net.omen.eclipsemod.item.custom.weapons;
+package net.omen.eclipsemod.item.weapons;
 
 import net.minecraft.network.chat.Component;
 import net.minecraft.sounds.SoundEvents;

@@ -1,4 +1,4 @@
-package net.omen.eclipsemod.block;
+package net.omen.eclipsemod.init;
 
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -12,8 +12,6 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.omen.eclipsemod.EclipseMod;
-import net.omen.eclipsemod.item.ModCreativeModeTabs;
-import net.omen.eclipsemod.item.ModItems;
 
 import java.util.function.Supplier;
 

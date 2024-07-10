@@ -1,4 +1,4 @@
-package net.omen.eclipsemod.item.custom.artifacts.weapons;
+package net.omen.eclipsemod.item.artifacts.weapons;
 
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;

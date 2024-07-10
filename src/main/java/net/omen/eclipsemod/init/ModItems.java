@@ -1,4 +1,4 @@
-package net.omen.eclipsemod.item;
+package net.omen.eclipsemod.init;
 
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.SwordItem;
@@ -7,13 +7,13 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.omen.eclipsemod.EclipseMod;
-import net.omen.eclipsemod.item.custom.artifacts.weapons.DaggerOfVenomItem;
-import net.omen.eclipsemod.item.custom.artifacts.weapons.KatanaOfWindItem;
-import net.omen.eclipsemod.item.custom.artifacts.weapons.MaceOfDensityItem;
-import net.omen.eclipsemod.item.custom.artifacts.weapons.ThrowingKnifeOfInfinityItem;
-import net.omen.eclipsemod.item.custom.weapons.SteelDaggerItem;
-import net.omen.eclipsemod.item.custom.weapons.SteelHammerItem;
-import net.omen.eclipsemod.item.custom.weapons.ThrowingKnifeItem;
+import net.omen.eclipsemod.item.artifacts.weapons.DaggerOfVenomItem;
+import net.omen.eclipsemod.item.artifacts.weapons.KatanaOfWindItem;
+import net.omen.eclipsemod.item.artifacts.weapons.MaceOfDensityItem;
+import net.omen.eclipsemod.item.artifacts.weapons.ThrowingKnifeOfInfinityItem;
+import net.omen.eclipsemod.item.weapons.SteelDaggerItem;
+import net.omen.eclipsemod.item.weapons.SteelHammerItem;
+import net.omen.eclipsemod.item.weapons.ThrowingKnifeItem;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
