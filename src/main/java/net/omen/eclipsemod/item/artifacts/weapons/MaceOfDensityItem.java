@@ -14,6 +14,7 @@ import net.minecraftforge.common.ForgeTier;
 import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.TierSortingRegistry;
 import net.omen.eclipsemod.EclipseMod;
+import net.omen.eclipsemod.init.ModCreativeModeTabs;
 import net.omen.eclipsemod.init.ModItems;
 import org.jetbrains.annotations.Nullable;
 
@@ -28,11 +29,8 @@ public class MaceOfDensityItem extends SwordItem {
 
 
 
-    public MaceOfDensityItem(Tier pTier, int pAttackDamageModifier, float pAttackSpeedModifier, Properties pProperties) {
-        super(pTier, pAttackDamageModifier, pAttackSpeedModifier, pProperties);
-
-
-
+    public MaceOfDensityItem() {
+        super(MACE_OF_DENSITY, 6, -2.8f, new Item.Properties().tab(ModCreativeModeTabs.ECLIPSE_TAB));
     }
 
 

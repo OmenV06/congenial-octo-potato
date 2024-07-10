@@ -14,14 +14,15 @@ import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
 import net.omen.eclipsemod.entity.custom.weapons.projectiles.ThrowingKnifeOfInfinityProjectileEntity;
 import net.omen.eclipsemod.entity.custom.weapons.projectiles.ThrowingKnifeProjectileEntity;
+import net.omen.eclipsemod.init.ModCreativeModeTabs;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
 public class ThrowingKnifeOfInfinityItem extends Item {
 
-    public ThrowingKnifeOfInfinityItem(Properties pProperties) {
-        super(pProperties);
+    public ThrowingKnifeOfInfinityItem() {
+        super(new Item.Properties().stacksTo(1).tab(ModCreativeModeTabs.ECLIPSE_TAB));
     }
 
     @Override

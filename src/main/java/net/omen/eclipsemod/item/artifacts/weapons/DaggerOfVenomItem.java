@@ -13,6 +13,7 @@ import net.minecraftforge.common.ForgeTier;
 import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.TierSortingRegistry;
 import net.omen.eclipsemod.EclipseMod;
+import net.omen.eclipsemod.init.ModCreativeModeTabs;
 import net.omen.eclipsemod.init.ModItems;
 import org.jetbrains.annotations.Nullable;
 
@@ -27,10 +28,8 @@ public class DaggerOfVenomItem extends SwordItem {
 
 
 
-    public DaggerOfVenomItem(Tier pTier, int pAttackDamageModifier, float pAttackSpeedModifier, Properties pProperties) {
-        super(pTier, pAttackDamageModifier, pAttackSpeedModifier, pProperties);
-
-
+    public DaggerOfVenomItem() {
+        super(DAGGER_OF_VENOM, 1, -1.6f, new Item.Properties().tab(ModCreativeModeTabs.ECLIPSE_TAB));
 
     }
 

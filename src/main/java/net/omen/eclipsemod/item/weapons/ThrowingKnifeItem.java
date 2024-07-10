@@ -12,14 +12,15 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
 import net.omen.eclipsemod.entity.custom.weapons.projectiles.ThrowingKnifeProjectileEntity;
+import net.omen.eclipsemod.init.ModCreativeModeTabs;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
 public class ThrowingKnifeItem extends Item {
 
-    public ThrowingKnifeItem(Properties pProperties) {
-        super(pProperties);
+    public ThrowingKnifeItem() {
+        super(new Item.Properties().stacksTo(16).tab(ModCreativeModeTabs.ECLIPSE_TAB));
     }
 
     @Override

@@ -11,6 +11,10 @@ import net.omen.eclipsemod.item.artifacts.weapons.DaggerOfVenomItem;
 import net.omen.eclipsemod.item.artifacts.weapons.KatanaOfWindItem;
 import net.omen.eclipsemod.item.artifacts.weapons.MaceOfDensityItem;
 import net.omen.eclipsemod.item.artifacts.weapons.ThrowingKnifeOfInfinityItem;
+import net.omen.eclipsemod.item.misc.EboniteIngotItem;
+import net.omen.eclipsemod.item.misc.IlluminiteIngotItem;
+import net.omen.eclipsemod.item.misc.SteelIngotItem;
+import net.omen.eclipsemod.item.misc.SteelNuggetItem;
 import net.omen.eclipsemod.item.weapons.SteelDaggerItem;
 import net.omen.eclipsemod.item.weapons.SteelHammerItem;
 import net.omen.eclipsemod.item.weapons.ThrowingKnifeItem;
@@ -25,37 +29,20 @@ public class ModItems {
 
     //Items added here
 
-    public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTabs.ECLIPSE_TAB)));
-    public static final RegistryObject<Item> STEEL_NUGGET = ITEMS.register("steel_nugget",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTabs.ECLIPSE_TAB)));
-    public static final RegistryObject<Item> ILLUMINITE_INGOT = ITEMS.register("illuminite_ingot",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTabs.ECLIPSE_TAB)));
-    public static final RegistryObject<Item> EBONITE_INGOT = ITEMS.register("ebonite_ingot",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTabs.ECLIPSE_TAB)));
+    public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot", SteelIngotItem::new);
+    public static final RegistryObject<Item> STEEL_NUGGET = ITEMS.register("steel_nugget", SteelNuggetItem::new);
+    public static final RegistryObject<Item> ILLUMINITE_INGOT = ITEMS.register("illuminite_ingot", IlluminiteIngotItem::new);
+    public static final RegistryObject<Item> EBONITE_INGOT = ITEMS.register("ebonite_ingot", EboniteIngotItem::new);
 
-    public static final RegistryObject<Item> THROWING_KNIFE = ITEMS.register("throwing_knife",
-            () -> new ThrowingKnifeItem(new Item.Properties().stacksTo(16)
-                    .tab(ModCreativeModeTabs.ECLIPSE_TAB)));
-    public static final RegistryObject<Item> STEEL_DAGGER = ITEMS.register("steel_dagger",
-            () -> new SwordItem(SteelDaggerItem.STEEL_DAGGER, 1, -1.6f, new Item.Properties()
-                    .tab(ModCreativeModeTabs.ECLIPSE_TAB)));
-    public static final RegistryObject<Item> STEEL_HAMMER = ITEMS.register("steel_hammer",
-            () -> new SwordItem(SteelHammerItem.STEEL_HAMMER, 4, -2.8f, new Item.Properties()
-                    .tab(ModCreativeModeTabs.ECLIPSE_TAB)));
+    public static final RegistryObject<Item> THROWING_KNIFE = ITEMS.register("throwing_knife", ThrowingKnifeItem::new);
+    public static final RegistryObject<Item> STEEL_DAGGER = ITEMS.register("steel_dagger", SteelDaggerItem::new);
+    public static final RegistryObject<Item> STEEL_HAMMER = ITEMS.register("steel_hammer", SteelHammerItem::new);
 
-    public static final RegistryObject<Item> THROWING_KNIFE_OF_INFINITY = ITEMS.register("throwing_knife_of_infinity",
-            () -> new ThrowingKnifeOfInfinityItem(new Item.Properties().stacksTo(1)
-                    .tab(ModCreativeModeTabs.ECLIPSE_TAB)));
-    public static final RegistryObject<Item> DAGGER_OF_VENOM = ITEMS.register("dagger_of_venom",
-            () -> new DaggerOfVenomItem(DaggerOfVenomItem.DAGGER_OF_VENOM, 1, -1.6f, new Item.Properties()
-                    .tab(ModCreativeModeTabs.ECLIPSE_TAB)));
-    public static final RegistryObject<Item> MACE_OF_DENSITY = ITEMS.register("mace_of_density",
-            () -> new MaceOfDensityItem(MaceOfDensityItem.MACE_OF_DENSITY, 6, -2.8f, new Item.Properties()
-                    .tab(ModCreativeModeTabs.ECLIPSE_TAB)));
-    public static final RegistryObject<Item> KATANA_OF_WIND = ITEMS.register("katana_of_wind",
-            () -> new KatanaOfWindItem(KatanaOfWindItem.KATANA_OF_WIND, 2, -1.8f, new Item.Properties()
-                    .tab(ModCreativeModeTabs.ECLIPSE_TAB))); //Make gui icon change from handle to handle and blade, and finish hitblock method
+    public static final RegistryObject<Item> THROWING_KNIFE_OF_INFINITY = ITEMS.register("throwing_knife_of_infinity", ThrowingKnifeOfInfinityItem::new);
+    public static final RegistryObject<Item> DAGGER_OF_VENOM = ITEMS.register("dagger_of_venom", DaggerOfVenomItem::new);
+    public static final RegistryObject<Item> MACE_OF_DENSITY = ITEMS.register("mace_of_density", MaceOfDensityItem::new);
+    public static final RegistryObject<Item> KATANA_OF_WIND = ITEMS.register("katana_of_wind", KatanaOfWindItem::new);
+    //Make gui icon change from handle to handle and blade, and finish hitblock method
 
     public static final RegistryObject<Item> ECLIPSE_ICON = ITEMS.register("eclipse_icon",
             () -> new Item(new Item.Properties()));
