@@ -28,7 +28,6 @@ public class ModItems {
     }
 
     //Items added here
-
     public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot", SteelIngotItem::new);
     public static final RegistryObject<Item> STEEL_NUGGET = ITEMS.register("steel_nugget", SteelNuggetItem::new);
     public static final RegistryObject<Item> ILLUMINITE_INGOT = ITEMS.register("illuminite_ingot", IlluminiteIngotItem::new);
