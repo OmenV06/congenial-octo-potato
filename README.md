@@ -1,11 +1,11 @@
 Intellij was being retarded, so I tried to drag-drop the mdk but it was "too many files" so I just added the src. Also idk how github works :D.
 
-Concept:
+#Concept:
 
 To start with, I don't have a complete idea for what the mod is, I'm figuring literally everything out as I go, and everything is subject to change.  
 What I am sure of is the combat portion the mod adds, which splits into two halfs; Powers and Artifacts.
 
-Powers:
+#Powers:
 
 The player is granted a random power upon first joining a world, the effect/abilities of these powers vary greatly. While only 2 have been made, I have a list of ideas while keeping the tier system in mind.  
 The strength of a power compared to another can vary drastically, to put into perspective, I've made a tier system (that has no actual function, just to help categorize).  
@@ -38,20 +38,20 @@ Boost, a B tier power that grants the player a passive health, armor, toughness,
 Vitality, a C tier power that greatly increases the players max health. Again, subject to change due to balancing.
 
 
-Eclipse:
+#Eclipse:
 
-With a large list of powers, it is very likely the player will recieve one that is weaker than they'd like, one they don't like at all, or they may be wanting a specific one. This is where the Eclipse comes in.  
+With a large list of powers, it is very likely the player will receive one that is weaker than they'd like, one they don't like at all, or they may be wanting a specific one. This is where the Eclipse comes in.  
 While I have not decided the specifics, the current idea is that every X days, if the player has a certain (and rare) item, they will be able to use it to participate in the Eclipse. The Eclipse will consume said item and in turn grant the player a new random power.  
 I'm aware of how this could be a very annoying mechanic, so again, I have not decided on this yet. (It's also inspired by (more like copied from :D ) Berserk)
 
 
 
-Artifacts:
+#Artifacts:
 
 Artifacts are the other half of the combat the mod will add. They act as a more obtainable and customizable counterpart to powers, and come in the form of weapons, tools, and armor.
-The method of obtainment is currently undetermined, and they come in two types with another tier system to catergorize them by strength.  
+The method of obtainment is currently undetermined, and they come in two types with another tier system to categorize them by strength.  
 
-Standalone: Standalone artifacts have an innate ability or trait, either a passive effect or a single useable ability.  
+Standalone: Standalone artifacts have an innate ability or trait, either a passive effect or a single usable ability.  
 An example of this is the Katana of Wind, a Rare, rather weak sword. It has infinite durability and can shoot damaging projectiles on command.
   
 Imbue/Enhancement: Imbue artifacts can be imbued with the players power, either upgrading it's ability or extending it by imbuing it into the artifact.  
