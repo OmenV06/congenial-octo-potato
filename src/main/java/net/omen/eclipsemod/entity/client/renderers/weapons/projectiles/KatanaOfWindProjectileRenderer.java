@@ -14,7 +14,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ItemStack;
 import net.omen.eclipsemod.EclipseMod;
 import net.omen.eclipsemod.entity.custom.weapons.projectiles.KatanaOfWindProjectileEntity;
-import net.omen.eclipsemod.item.ModItems;
+import net.omen.eclipsemod.init.ModItems;
 
 public class KatanaOfWindProjectileRenderer extends EntityRenderer<KatanaOfWindProjectileEntity> {
     private final ItemRenderer itemRenderer;

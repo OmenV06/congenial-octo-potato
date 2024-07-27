@@ -1,4 +1,4 @@
-package net.omen.eclipsemod.item.custom.artifacts.weapons;
+package net.omen.eclipsemod.item.artifacts.weapons;
 
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
@@ -16,7 +16,8 @@ import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.TierSortingRegistry;
 import net.omen.eclipsemod.EclipseMod;
 import net.omen.eclipsemod.entity.custom.weapons.projectiles.KatanaOfWindProjectileEntity;
-import net.omen.eclipsemod.item.ModItems;
+import net.omen.eclipsemod.init.ModCreativeModeTabs;
+import net.omen.eclipsemod.init.ModItems;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
@@ -30,11 +31,8 @@ public class KatanaOfWindItem extends SwordItem {
 
 
 
-    public KatanaOfWindItem(Tier pTier, int pAttackDamageModifier, float pAttackSpeedModifier, Properties pProperties) {
-        super(pTier, pAttackDamageModifier, pAttackSpeedModifier, pProperties);
-
-
-
+    public KatanaOfWindItem() {
+        super(KATANA_OF_WIND, 2, -1.8f, new Item.Properties().tab(ModCreativeModeTabs.ECLIPSE_TAB));
     }
 
 

@@ -9,7 +9,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.EntityHitResult;
 import net.omen.eclipsemod.entity.ModEntities;
-import net.omen.eclipsemod.item.ModItems;
+import net.omen.eclipsemod.init.ModItems;
 
 public class ThrowingKnifeProjectileEntity extends ThrowableItemProjectile {
 
